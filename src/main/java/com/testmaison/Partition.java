@@ -1,6 +1,7 @@
-package testmaison;
+package com.testmaison;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
@@ -29,5 +30,8 @@ public class Partition {
 		return liste;
 	}
 
-
+    public static void main(String[] args) throws Exception {
+		List<Integer> liste = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7));
+    	System.out.println(Partition.partition(liste, 3));
+    }
 }

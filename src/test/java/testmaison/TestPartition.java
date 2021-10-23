@@ -10,6 +10,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.testmaison.Partition;
+
 public class TestPartition {
 	List<Integer> Liste;
 
